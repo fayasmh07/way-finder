@@ -1,3 +1,4 @@
+<h1 align=center> UNDER DEVELOPMENT </h1>
 <h1 align=center> Way Finder </h1>
 A powerful Bash-based URL filtering and vulnerability detection tool for bug bounty hunters.
 
@@ -86,3 +87,24 @@ Run the tool with the desired flags and arguments. Below is a list of all suppor
 
 ## **License**  
 This project is licensed under the MIT License.  
+
+---
+
+Stage 1: Core URL Collection Functionality
+Goal: Implement the ability to fetch and save URLs using waybackurls.
+
+Algorithm:
+
+Parse command-line arguments (--urls, -d, -o).
+Validate inputs:
+Ensure -d (domain) and -o (output file) are provided.
+Check if waybackurls is installed.
+Run waybackurls with the domain and save the results to the specified output file.
+Display a success message or error if the command fails.
+Tasks:
+
+Task 1: Create a function to handle argument parsing.
+Task 2: Validate inputs and check prerequisites (e.g., waybackurls is installed).
+Task 3: Run waybackurls and save the output to a file.
+
+---
