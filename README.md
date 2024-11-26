@@ -1,5 +1,5 @@
 <h1 align=center> Way Finder </h1>
-***A powerful Bash-based URL filtering and vulnerability detection tool for bug bounty hunters.***
+A powerful Bash-based URL filtering and vulnerability detection tool for bug bounty hunters.
 
 ## **Description**  
 Way Finder is a lightweight Bash script designed to assist bug bounty hunters in automating reconnaissance tasks. It allows users to fetch URLs from web archives, filter them for specific vulnerability parameters, and dynamically manage keyword-based searches. Whether you're hunting for XSS, LFI, SQLi, or other vulnerabilities, [Tool Name] is here to streamline your workflow.
