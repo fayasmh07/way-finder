@@ -38,20 +38,20 @@ Way Finder is a lightweight Bash script designed to assist bug bounty hunters in
 
 Run the tool with the desired flags and arguments. Below is a list of all supported options:
 
-| **Flag**      | **Description**                                         | **Example**                                            |
-|---------------|---------------------------------------------------------|-------------------------------------------------------|
-| `--urls`      | Fetch URLs from Wayback Machine for a given domain.     | `tool --urls -d example.com -o output.txt`            |
-| `--xss`       | Filter URLs containing XSS-related parameters.          | `tool --xss -f input.txt -o xss_urls.txt`             |
-| `--lfi`       | Filter URLs for Local File Inclusion patterns.          | `tool --lfi -f input.txt -o lfi_urls.txt`             |
-| `--sqli`      | Filter URLs for SQL Injection patterns.                 | `tool --sqli -f input.txt -o sqli_urls.txt`           |
-| `--redir`     | Filter URLs for Open Redirect patterns.                 | `tool --redir -f input.txt -o redir_urls.txt`         |
-| `--ssrf`      | Filter URLs for Server-Side Request Forgery patterns.   | `tool --ssrf -f input.txt -o ssrf_urls.txt`           |
-| `--rce`       | Filter URLs for Remote Code Execution patterns.         | `tool --rce -f input.txt -o rce_urls.txt`             |
-| `--add`       | Add a custom keyword to a vulnerability type filter.    | `tool --add --xss newkeyword`                         |
-| `-d`          | Specify the domain for URL collection.                 | `-d example.com`                                      |
-| `-f`          | Specify the input file for URL filtering.              | `-f urls.txt`                                         |
-| `-o`          | Specify the output file to save results.               | `-o output.txt`                                       |
-| `--help`      | Display the help menu with all available options.       | `tool --help`                                         |
+| **Flag**             | **Description**                                         | **Example**                                            |
+|----------------------|---------------------------------------------------------|-------------------------------------------------------|
+| `--urls`             | Fetch URLs from Wayback Machine for a given domain.     | `tool --urls -d example.com -o output.txt`            |
+| `--xss`              | Filter URLs containing XSS-related parameters.          | `tool --xss -f input.txt -o xss_urls.txt`             |
+| `--lfi`              | Filter URLs for Local File Inclusion patterns.          | `tool --lfi -f input.txt -o lfi_urls.txt`             |
+| `--sqli`             | Filter URLs for SQL Injection patterns.                 | `tool --sqli -f input.txt -o sqli_urls.txt`           |
+| `--redir`            | Filter URLs for Open Redirect patterns.                 | `tool --redir -f input.txt -o redir_urls.txt`         |
+| `--ssrf`             | Filter URLs for Server-Side Request Forgery patterns.   | `tool --ssrf -f input.txt -o ssrf_urls.txt`           |
+| `--rce`              | Filter URLs for Remote Code Execution patterns.         | `tool --rce -f input.txt -o rce_urls.txt`             |
+| `--add`              | Add a custom keyword to a vulnerability type filter.    | `tool --add --xss newkeyword`                         |
+| `-d`                 | Specify the domain for URL collection.                 | `-d example.com`                                      |
+| `-f`                 | Specify the input file for URL filtering.              | `-f urls.txt`                                         |
+| `-o`                 | Specify the output file to save results.               | `-o output.txt`                                       |
+| `--help`             | Display the help menu with all available options.       | `tool --help`                                         |
 
 ---
 
