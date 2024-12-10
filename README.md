@@ -109,11 +109,11 @@ Task 2: Validate inputs and check prerequisites (e.g., waybackurls is installed)
 Task 3: Run waybackurls and save the output to a file.
 
 ---
-### **Stage 2: Basic Filtering by Vulnerability Type**
+# **Stage 2: Basic Filtering by Vulnerability Type**
 
-**Goal:** Implement keyword-based filtering for specific vulnerability types.
+## **Goal:** Implement keyword-based filtering for specific vulnerability types.
 
-**Algorithm:**
+### **Algorithm:**
 
 1.  Parse command-line arguments (`--xss`, `--lfi`, etc., with `-f` and `-o`).
 2.  Validate inputs:
