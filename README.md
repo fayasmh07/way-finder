@@ -133,7 +133,7 @@ Task 3: Run waybackurls and save the output to a file.
 
 ---
 
-### **Stage 3: Add Dynamic Keyword Management**  
+# **Stage 3: Add Dynamic Keyword Management**  
 **Goal:** Allow users to add new keywords for vulnerability-specific filters.
 
 **Algorithm:**  
@@ -151,7 +151,7 @@ Task 3: Run waybackurls and save the output to a file.
 
 ---
 
-### **Stage 4: Modularize and Optimize Code**  
+# **Stage 4: Modularize and Optimize Code**  
 **Goal:** Organize the script into reusable functions and enhance usability.
 
 **Algorithm:**  
@@ -171,7 +171,7 @@ Task 3: Run waybackurls and save the output to a file.
 
 ---
 
-### **Stage 5: Extend Functionality for More Vulnerabilities**  
+# **Stage 5: Extend Functionality for More Vulnerabilities**  
 **Goal:** Add more filtering options for vulnerabilities like SSRF, RCE, etc.
 
 **Algorithm:**  
@@ -186,7 +186,7 @@ Task 3: Run waybackurls and save the output to a file.
 
 ---
 
-### **Stage 6: Advanced Features**  
+# **Stage 6: Advanced Features**  
 **Goal:** Enhance usability and functionality.
 
 **Possible Additions:**  
