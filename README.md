@@ -1,5 +1,5 @@
-<h1 align=center> UNDER DEVELOPMENT </h1>
-<h1 align=center> Way Finder </h1>
+
+<h1 align=center> WAY FINDER </h1>
 A powerful Bash-based URL filtering and vulnerability detection tool for bug bounty hunters.
 
 ## **Description**  
